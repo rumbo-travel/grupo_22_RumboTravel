@@ -1,0 +1,10 @@
+/*
+Ej. Googlefonts
+@import url();
+*/
+
+/*orden cascada*/
+@import 'partials/general.css';
+@import 'partials/_header.css';
+@import 'partials/_main.css';
+@import 'partials/_footer.css';
