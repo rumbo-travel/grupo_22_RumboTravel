@@ -70,10 +70,27 @@
     display: table;
     clear: both;
   }
+
+  
+  @media (max-width: 850px) {
+
+    .logo_footer{
+      display: none;
+    }
+
+    .grid-container{
+      grid-template-columns: none;
+    }
+
+    .grid-item:nth-child(2){
+      grid-row-start: 1;
+    }
+    }
   
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
+
   }
