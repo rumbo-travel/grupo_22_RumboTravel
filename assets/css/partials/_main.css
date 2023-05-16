@@ -19,7 +19,10 @@
      justify-self: center;
  }
  
- 
+ .item:hover{
+    transform: scale(1.04);
+ }
+
  .p_ciudad{
      position: absolute;
      top: 12rem;

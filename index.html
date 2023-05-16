@@ -12,17 +12,21 @@
 
 <body>
     <header>
-        <a href="#"><img class="logo" src="./assets/images/logo_02.png" alt="Logo"></a>
+        <div class="div_logo">
+            <a href="#"><img class="logo" src="./assets/images/logo_02.png" alt="Logo"></a>
+            <!-- Animacion del titulo -->
+            <h1  class="animate__animated animate__lightSpeedInLeft"
+            >Rumbo
+            Travel</h1>
+        </div>
+
         <input type="checkbox" class="btn_menu" id="btn_menu">
         <label for="btn_menu" class="label_menu"><img src="./assets/images/list-menu-white.svg" width="45px"
                 height="45px" alt="logo_menu"></label>
         <!-- Animacion de titulo traido de la pagina animate.style -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-        <!-- Animacion del titulo -->
-        <h1 class="animate__animated animate__lightSpeedInLeft"
-            style="font-size: 3em; color: rgb(54, 48, 92); font-family: Verdana, Geneva, Tahoma, sans-serif;">Rumbo
-            Travel</h1>
+    
 
 
         <nav class="nav" id="nav">
@@ -30,7 +34,7 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="./pages/Sucursales.html">Sucursales</a></li>
                 <li><a href="#">Quienes Somos</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#form_comentario">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -94,8 +98,8 @@
                 <div class="item"> <!-- Bangkok -->
                     <div class="card">
                         <img src="./assets/images/Asia/Bangkok.jpg" alt="Bangkok">
-                        <p class="p_dias"> 8dias - 6noches</p>
-                        <p class="p_precio">$70000</p>
+                        <p class="p_dias"> 10dias - 7noches</p>
+                        <p class="p_precio">u$d3000</p>
                         <p class="p_ciudad">Bangkok</p>
                         <a href="#">Reserva</a>
                     </div>
@@ -103,8 +107,8 @@
                 <div class="item"> <!-- Tokio -->
                     <div class="card">
                         <img src="./assets/images/Asia/Tokio.jpg" alt="Tokio">
-                        <p class="p_dias"> 5dias - 4noches</p>
-                        <p class="p_precio">$50000</p>
+                        <p class="p_dias"> 9dias - 6noches</p>
+                        <p class="p_precio">u$d3200</p>
                         <p class="p_ciudad">Tokio</p>
                         <a href="#">Reserva</a>
                     </div>
@@ -113,7 +117,7 @@
                     <div class="card">
                         <img src="./assets/images/Asia/Estambul.jpeg" alt="Estambul">
                         <p class="p_dias"> 8dias - 6noches</p>
-                        <p class="p_precio">$55000</p>
+                        <p class="p_precio">u$d2800</p>
                         <p class="p_ciudad">Estambul</p>
                         <a href="#">Reserva</a>
                     </div>
@@ -122,7 +126,7 @@
                     <div class="card">
                         <img src="./assets/images/Asia/India.jpg" alt="India">
                         <p class="p_dias"> 10dias - 8noches</p>
-                        <p class="p_precio">$60000</p>
+                        <p class="p_precio">u$d2600</p>
                         <p class="p_ciudad">India</p>
                         <a href="#">Reserva</a>
                     </div>
@@ -172,6 +176,50 @@
                     </div>
                 </div>
         </section>
+
+        <section>
+            <div class="titulo_destacado">
+                <span>America</span>
+            </div>
+            <!-- America -->
+            <div class="contenedor_destacado">
+                <div class="item">
+                    <div class="card">
+                        <img src="./assets/images/America/cancun.jpg" alt="">
+                        <p class="p_dias"> 10 días - 8 noches</p>
+                        <p class="p_precio">u$d 2000</p>
+                        <p class="p_ciudad">Cancun</p>
+                        <a href="#">Reserva</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./assets/images/America/Miami-Florida.jpg" alt="">
+                        <p class="p_dias"> 7 días - 6 noches</p>
+                        <p class="p_precio">u$d 2300</p>
+                        <p class="p_ciudad">Miami - Florida</p>
+                        <a href="#">Reserva</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./assets/images/America/puntaCana.jpg" alt="">
+                        <p class="p_dias"> 8 dias - 6 noches</p>
+                        <p class="p_precio">u$d 3000</p>
+                        <p class="p_ciudad">Punta Cana</p>
+                        <a href="#">Reserva</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./assets/images/America/RioDeJaneiro.jpg" alt="">
+                        <p class="p_dias"> 8 dias - 7 noches</p>
+                        <p class="p_precio">u$d 1600</p>
+                        <p class="p_ciudad">Rio de Janeiro</p>
+                        <a href="#">Reserva</a>
+                    </div>
+                </div>
+        </section>
     </main>
 
     <footer>
@@ -199,7 +247,7 @@
                 </ul>
             </div>
             <!-- formulario de comentarios -->
-            <div class="grid-item">
+            <div class="grid-item" id="form_comentario">
                 <h3>Comentarios</h3><br>
                 <div class="container">
                     <form action="/action_page.php">
@@ -213,10 +261,10 @@
                         </div>
                         <div class="row">
                             <div class="col-25">
-                                <label for="lname">Apellido</label>
+                                <label for="email">Email</label>
                             </div>
                             <div class="col-75">
-                                <input type="text" id="lname" name="lastname" placeholder="Escriba su apellido..">
+                                <input type="text" id="email" name="email" placeholder="Escriba su email..">
                             </div>
                         </div>
                         <div class="row">
@@ -241,7 +289,7 @@
                 <p><b> 2023© Rumbo travel S.A. - Todos los derechos reservados.-</b></p>
             </div>
             <!--Logo-boton ir arriba -->
-            <div style=" text-align: right ">
+            <div class="logo_footer" style=" text-align: right ">
                 <a href="#" title="Ir arriba"><img class="logo" src="./assets/images/logo_02.png" alt=""></a>
             </div>
         </div>
