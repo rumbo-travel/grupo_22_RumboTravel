@@ -1,13 +1,12 @@
 /*JS*/
+/*let btnMenu = document.querySelector(".label_menu");
+let nav = document.getElementById("nav")
+const menu = () =>{
 
-
-/* SUCURSALES */
-let spanSuc = document.querySelectorAll(".span_sucursales");
-
-spanSuc.forEach((span) =>{
-span.addEventListener("click",(e) =>{
-     let span_e = e.target;
-console.log(span_e)
-span_e.classList.toggle("active");
-})
-})
+     btnMenu.addEventListener("click",(e) =>{
+          let btn = e.target;
+     console.log(btn)
+    nav.classList.toggle("active_menu");
+     })
+}
+menu()*/

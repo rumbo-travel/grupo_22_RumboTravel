@@ -127,11 +127,12 @@
         nav{
             display:none;
         }
+
     
         /*cuando tenga checked 
         ~ buscame a la clase nav (menu) */
-        #btn_menu:checked ~ nav {
-        display: block;
+        #btn_menu:checked ~ nav  {
+        display: block !important;
             
         }
 
