@@ -1,12 +1,12 @@
 /*JS*/
-/*let btnMenu = document.querySelector(".label_menu");
-let nav = document.getElementById("nav")
-const menu = () =>{
+/*Menu*/
+let btnMenu = document.querySelector(".label_menu");
 
-     btnMenu.addEventListener("click",(e) =>{
-          let btn = e.target;
-     console.log(btn)
+const menu = () => {
+  btnMenu.addEventListener("click", () => {
+    let nav = document.querySelector(".nav-list");
+
     nav.classList.toggle("active_menu");
-     })
-}
-menu()*/
+  });
+};
+menu();

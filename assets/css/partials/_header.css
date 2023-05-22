@@ -56,15 +56,17 @@
         margin-left: 0.4rem;
     }
     
-    .btn_menu {
-        display: none;
-    }
     
     .label_menu {
         display: none;
         z-index: 2;
         cursor: pointer;
     }
+
+    .active_menu{
+        opacity: 1 !important;
+        transition: 0.2s;
+      }
     
     /*banner*/
     .slider{
@@ -121,20 +123,23 @@
         padding-top: 6rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         z-index: 2;
+        opacity: 0;
           
         }
     
-        nav{
+
+        /*menu hamburguesa sin JS*/
+      /*  nav{
             display:none;
         }
 
     
         /*cuando tenga checked 
         ~ buscame a la clase nav (menu) */
-        #btn_menu:checked ~ nav  {
+     /*   #btn_menu:checked ~ nav  {
         display: block !important;
             
-        }
+        }*/
 
 
     
