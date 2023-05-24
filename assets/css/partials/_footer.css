@@ -20,14 +20,18 @@
   
   }
   
-  input[type=text], select, textarea {
+  input, select, textarea {
     width: 100%;
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 20px;
     resize: vertical;
   }
-  
+
+  .enviar{
+    width: 35% !important;
+  }
+
   label {
     padding: 9px 9px 9px 0;
     display: inline-block;
@@ -69,6 +73,11 @@
     content: "";
     display: table;
     clear: both;
+  }
+  .row_enviar{
+    display: flex;
+    justify-content: end;
+    margin-left: 5rem;
   }
 
   
