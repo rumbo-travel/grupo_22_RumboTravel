@@ -1,0 +1,13 @@
+/*QuienesSomos*/
+
+.caja-imagen {
+
+    display: grid;
+    justify-content: center;
+    object-fit: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    margin: 60px;
+    align-items: center;
+  
+  }
