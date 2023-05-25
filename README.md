@@ -31,3 +31,4 @@ Repositorio [link] (https://github.com/rumbo-travel/grupo_22_RumboTravel.git)
 **api local (reserva.json - sucursales.json)
 **api_reserva pagina principal
 **api_sucursales
+**Validacion JavaScript formulario_ comentario & formulario_reserva
