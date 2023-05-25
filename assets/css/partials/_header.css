@@ -95,6 +95,9 @@
         height: 100%;
         object-fit: contain;
     }
+    .animacion{
+        margin-bottom: 0rem;
+    }
 
     @media (max-width: 920px) {
         .div_logo{

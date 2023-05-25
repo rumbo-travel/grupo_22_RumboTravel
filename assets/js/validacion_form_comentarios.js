@@ -28,7 +28,7 @@ function validarForm(formulario) {
   formulario.addEventListener("submit", (e) => {
     limpiarErrores();
     e.preventDefault();
-    console.log("click");
+    //console.log("click");
 
     //validacion nombre
     if (formulario.nombreC.value.length == 0) {
