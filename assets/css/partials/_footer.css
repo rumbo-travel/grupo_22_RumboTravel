@@ -80,6 +80,10 @@
     margin-left: 5rem;
   }
 
+  ul {
+    list-style: none;
+}
+
   
   @media (max-width: 850px) {
 
