@@ -2,6 +2,9 @@
 
 ## RUMBO TRAVEL
 
+## Web
+https://rumbo-travel.netlify.app/
+
 ## Temática
 Venta de paquetes para vacacionar por cualquier punto del mundo que elijas.
 
@@ -24,7 +27,10 @@ Repositorio [link] (https://github.com/rumbo-travel/grupo_22_RumboTravel.git)
 
 ## Tech Stack
 
-**Client:** HTML, CSS, Vanilla JavaScript
+**Client:** 
+**HTML, CSS, Vanilla JavaScript
 **api local (reserva.json - sucursales.json)
 **api_reserva pagina principal
 **api_sucursales
+**Validacion JavaScript formulario_ comentario & formulario_reserva
+** VUE - formulario-Comentarios
