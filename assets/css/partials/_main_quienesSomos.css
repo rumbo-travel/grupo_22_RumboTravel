@@ -2,12 +2,15 @@
 
 .caja-imagen {
 
-    display: grid;
-    justify-content: center;
-    object-fit: cover;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
-    margin: 60px;
-    align-items: center;
-  
-  }
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+  margin-top: auto;
+  justify-content: center;
+  object-fit: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  margin: 60px;
+  align-items: center;
+
+}
