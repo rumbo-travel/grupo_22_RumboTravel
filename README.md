@@ -6,7 +6,7 @@
 Venta de paquetes para vacacionar por cualquier punto del mundo que elijas.
 
 ## Autores
-*Julieta Ruiz Diaz
+*Julieta Ruidiaz
 *Leonardo Cian
 *Sebastian Lucas
 
